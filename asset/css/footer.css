@@ -1,0 +1,30 @@
+.footer {
+    background-color: #174344 !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px !important;
+    border-top-style: ridge;
+    border-top-color: rgba(181, 215, 92, 1);
+    margin-bottom: 0 !important;
+}
+
+#footer-address div p,
+#footer-address div h5 {
+    color: #fff !important;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+
+    #footer-address div p,
+    #footer-address div h5,
+    #footer-address h5 {
+        font-size: 1rem;
+    }
+}

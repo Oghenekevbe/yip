@@ -1,0 +1,158 @@
+.contact h2,
+.contact p,
+.contact-form h5,
+.contact-form label {
+    color: #fff !important;
+}
+
+.card {
+    background-color: rgba(23, 67, 68, 0.2) !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-style: ridge !important;
+    border-color: rgba(181, 215, 92, 1) !important;
+    width: 600px;
+
+}
+
+#image-container img {
+    width: 500px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+#holder {
+    display: flex !important;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    /* Small smartphones(360px to 480px) */
+    #support-heading h2,
+    #support-heading p {
+        text-align: center !important;
+    }
+
+    .card {
+        width: 300px !important;
+
+    }
+
+    #image-container img {
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    #holder {
+        display: block !important;
+        margin-left: 30PX;
+    }
+
+    #contact-details {
+        margin-top: 20px;
+    }
+
+}
+
+
+
+/* Large smartphones (480px to 576px) */
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
+    /* Styles for large smartphones */
+    #support-heading h2,
+    #support-heading p {
+        text-align: center !important;
+    }
+
+    .card {
+        width: 400px !important;
+
+    }
+
+    #image-container img {
+        width: 200px;
+        margin-left: 75px;
+    }
+
+    #holder {
+        display: block !important;
+        margin-left: 30PX;
+    }
+
+    #contact-details {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Extra-large smartphones (576px to 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for extra-large smartphones */
+    /* Styles for large smartphones */
+    #support-heading h2,
+    #support-heading p {
+        text-align: center !important;
+    }
+
+    .card {
+        width: 500px !important;
+
+    }
+
+    #image-container img {
+        width: 400px;
+        margin-left: 75px;
+    }
+
+    #holder {
+        display: block !important;
+        width: 50% !important;
+    }
+
+    #contact-details {
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for devices with widths between 768px and 992px */
+    #support-heading h2,
+    #support-heading p {
+        text-align: center !important;
+    }
+
+    .card {
+        width: 750px !important;
+        left: -25px;
+
+    }
+
+    #image-container img {
+        width: 300px;
+        margin-left: 150px;
+    }
+
+    #holder {
+        display: block !important;
+        width: 50% !important;
+    }
+
+    #contact-details {
+        margin-top: 20px;
+    }
+
+
+
+}

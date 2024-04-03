@@ -1,0 +1,27 @@
+.wrapper {
+    margin-top: 100px !important;
+}
+
+body {
+    background-color: #000 !important;
+}
+
+body {
+    background-image: url('../images/pic10.jpg') !important;
+
+}
+
+button,
+a {
+    border-color: rgba(181, 215, 92, 1) !important;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Arial, Helvetica, sans-serif
+}

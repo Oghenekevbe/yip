@@ -1,0 +1,161 @@
+header {
+    padding: 20px 10px 10px 10px !important;
+    width: 100% !important;
+}
+
+
+
+.message-1 {
+    display: flex;
+    padding: 20px;
+}
+
+.message-1 div h4 {
+    text-align: justify;
+    color: rgb(207, 224, 239);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.message-1 div h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.message-1 div img {
+    width: 500px !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.message-1 div a {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgb(43, 112, 215);
+    font-weight: bold;
+}
+
+
+.message-2 {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+.message-2 div a {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    color: rgb(207, 224, 239);
+    font-weight: bold;
+}
+
+.message-2 div h4 {
+    text-align: justify;
+    color: rgb(207, 224, 239);
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.message-2 div h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+
+#solutions {
+    display: flex;
+}
+
+#solutions .card {
+    margin: 5px !important;
+}
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    /* Small smartphones(360px to 480px) */
+    .message-1 {
+        display: block !important;
+    }
+
+    #solutions {
+        display: block;
+    }
+
+    #solutions .card {
+        margin-left: 30px !important;
+        width: 14rem !important;
+    }
+
+    .message-1 div img {
+        width: 250px !important;
+    }
+
+
+}
+
+/* Large smartphones (480px to 576px) */
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
+    /* Styles for large smartphones */
+    .message-1 {
+        display: block !important;
+    }
+
+    #solutions {
+        display: block;
+    }
+
+    #solutions .card {
+        margin-left: 80px !important;
+        width: 14rem !important;
+    }
+
+    .message-1 div img {
+        width: 400px !important;
+    }
+}
+
+/* Extra-large smartphones (576px to 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for extra-large smartphones */
+    .message-1 {
+        display: block !important;
+    }
+
+    #solutions {
+        display: block;
+    }
+
+    #solutions .card {
+        margin-left: 80px !important;
+        width: 14rem !important;
+    }
+
+    .message-1 div img {
+        margin-left: -20px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Styles for devices with widths between 768px and 992px */
+
+    .message-1 {
+        display: block !important;
+    }
+
+    .card .btn {
+        font-size: 0.8rem;
+        padding: 0.25rem 0.5rem;
+    }
+}

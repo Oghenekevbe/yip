@@ -1,0 +1,127 @@
+.card {
+    background-color: rgba(23, 67, 68, 0.2) !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-style: ridge !important;
+    border-color: rgba(181, 215, 92, 1) !important;
+    width: 600px;
+    margin: 10px 0 10px 0;
+
+}
+
+.header {
+    display: flex;
+}
+
+.header h3,
+.header p,
+.header h4 {
+
+    color: #fff;
+}
+
+.header #image-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.header div img {
+    width: 500px !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card button {
+    color: #fff;
+    background-color: #007bff;
+}
+
+#jobSummary h6,
+#jobSummary p,
+#jobDetails h6,
+#jobDetails p,
+#collapseOne h6,
+#collapseOne p,
+#collapseTwo h6,
+#collapseTwo p {
+    color: #fff !important;
+}
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    /* Small smartphones(360px to 480px) */
+    .header {
+        display: block !important;
+    }
+
+    .header div img {
+        width: 300px !important;
+    }
+
+
+
+
+    .card {
+        width: 300px;
+
+
+    }
+
+
+
+}
+
+/* Large smartphones (480px to 576px) */
+@media screen and (min-width: 480px) and (max-width: 576px) {
+    /* Styles for large smartphones */
+
+    .header {
+        display: block !important;
+    }
+
+    .header div img {
+        width: 400px !important;
+    }
+
+
+
+
+    .card {
+        width: 500px;
+
+
+    }
+}
+
+/* Extra-large smartphones (576px to 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for extra-large smartphones */
+    .header {
+        display: block !important;
+    }
+
+
+
+    .card {
+        width: 500px;
+
+
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for devices with widths between 768px and 992px */
+    .header {
+        display: block;
+    }
+}

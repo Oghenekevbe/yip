@@ -1,0 +1,182 @@
+.header {
+    display: flex;
+}
+
+
+.header img {
+    width: 400px !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+
+.header h3 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.header h4 {
+    color: rgb(207, 224, 239);
+    font-size: 1.2rem;
+    font-weight: lighter
+}
+
+#solutions {
+    margin-top: 50px;
+    display: flex;
+}
+
+.card {
+    width: 500px;
+    border-top-left-radius: 50px !important;
+    border-top-right-radius: 50px !important;
+    padding: 20px 10px 10px 10px;
+    margin: 10px 10px 0px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(225, 225, 225, 0.2) !important;
+    border-color: rgba(181, 215, 92, 1) !important;
+    ;
+}
+
+.card h5,
+.card p {
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 480px) {
+
+    /* Small smartphones(360px to 480px) */
+    .header {
+        display: block;
+    }
+
+
+    .header img {
+        margin-top: 10px;
+
+    }
+
+
+    #solutions {
+        display: block;
+    }
+
+
+
+    .header img {
+        width: 300px !important;
+
+    }
+
+    .card {
+        width: 300px;
+    }
+
+}
+
+/* Large smartphones (480px to 576px) */
+@media screen and (min-width: 480px) and (max-width: 576px) {
+
+    /* Styles for large smartphones */
+    .header {
+        display: block;
+    }
+
+
+    .header img {
+        margin-left: 50px;
+        margin-top: 10px;
+
+    }
+
+
+    #solutions {
+        display: block;
+    }
+
+
+
+    .header img {
+        width: 400px !important;
+
+    }
+
+    .card {
+        width: 350px;
+        margin-left: 50px;
+    }
+
+}
+
+/* Extra-large smartphones (576px to 768px) */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+
+    /* Styles for extra-large smartphones */
+    .header {
+        display: block;
+    }
+
+
+    .header img {
+        margin-left: 70px;
+        margin-top: 10px;
+
+    }
+
+
+    #solutions {
+        display: block;
+    }
+
+
+
+    .header img {
+        width: 400px !important;
+
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    /* Styles for devices with widths between 768px and 992px */
+    .header {
+        display: block;
+    }
+
+
+    .header img {
+        margin-left: 100px;
+
+    }
+
+
+    #solutions {
+        display: block;
+    }
+
+    .card {
+        margin-left: 100px;
+    }
+
+    .header img {
+        width: 500px !important;
+
+    }
+
+}
